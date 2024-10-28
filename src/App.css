@@ -1,0 +1,160 @@
+body {
+  background-color: cornflowerblue;
+}
+.App {
+  text-align: center;
+  width: 900px;
+  background-color: cadetblue;
+  margin: 10px auto;
+  box-sizing: border-box;
+}
+/* with & Without Functional Components CSS STARTS */
+.functionalComponent {
+  border: 1px solid;
+  /* background-color: #74EBD5; */
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+}
+/*.withoutFunctionalComponentDiv {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px; 
+ 
+}*/
+.playerDiv {
+  border: 2px dashed;
+  padding:20px;
+  margin: 20px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  display: inline-block;
+  width: 200px;
+}
+img  {
+  width: 100px;
+}
+.CSKColor {
+  background-color: #ffcb05;
+}
+.DCColor{
+  background-color: #c90006;
+  color: #dfeff0;
+}
+
+/* Functional Components CSS ENDS */
+
+/* Functional Component Tables CSS STARTS */
+
+.functionalComponentTables {
+  padding: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F4D03F;
+  background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+  border: 1px solid;
+
+  
+}
+
+table,tr,th,td {
+  border: 1px solid;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  
+}
+.tableWidth {
+  width: 100%;
+  border-collapse: collapse;
+}
+caption {
+  margin: 10px;
+  font-size: 1.5rem;
+}
+.rollNO,.maxMarks,.studentsMarks,.studentTotal,.studentRemarks,.studentName,.studentResult{
+  width: 8%;
+}
+.studentMarkList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.tableWidth2 {
+  width: 90%;
+}
+
+/* Functional Component Tables CSS ENDS */
+
+/* TERNARY OPERATORS CSS STARTS */
+.ternaryOperators {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    padding: 20px;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+}
+
+.ternaryTable {
+  width: 700px;
+}
+/* TERNARY OPERATORS CSS ENDS */
+
+/* useRef onClick arrowFunctions scopeOf Variables CSS STARTS */
+.useRefOnClickArrowFunctions {
+  padding: 40px;
+  border: 1px solid;
+  background-image: linear-gradient( 109.5deg,  rgba(229,233,177,1) 11.2%, rgba(223,205,187,1) 100.2% );
+}  
+form {
+  display: inline-block;
+}
+form label {
+  display: inline-block;
+  width: 150px;
+}
+form div {
+  margin: 10px;
+}
+legend {
+  text-align: left;
+  padding: 10px;
+ 
+}
+.innerLabel {
+  width: auto;
+}
+
+/*  useRef onClick arrowFunctions scopeOf Variables CSS ENDS */
+
+/* onMouseMove onBlur onChange onFocus useEffect CSS STARTS */
+.eventsMouseMoveBlurFocusChange {
+  padding: 40px;
+  border: 1px solid;
+  background-image: linear-gradient(to bottom right, #bdc3c7, #2c3e50);
+}
+
+.mouseMoveBlurFocusChange {
+  margin: 20px;
+  padding: 40px;
+  border: 1px solid;
+  background-image: linear-gradient(to bottom right, #2c3e50, #bdc3c7);
+}
+
+span {
+  display: inline-block;
+  width: 75px;
+  margin: 5px;
+}
+
+/* onMouseMove onBlur onChange onFocus useEffect CSS ENDS */
